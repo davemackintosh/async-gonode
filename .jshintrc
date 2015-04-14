@@ -6,6 +6,7 @@
   "globals" : {
     "console"  : true,
     "document" : true,
-    "window"   : true
+    "window"   : true,
+    "require"  : true
   }
 }

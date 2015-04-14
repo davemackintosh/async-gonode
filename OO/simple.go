@@ -2,12 +2,10 @@ package main
 
 import "log"
 
-// Animal njwigniwg wrbighwrog wrgh wgw
 type Animal struct {
 	Says string `Animal:"Nothing..."`
 }
 
-// I'm a Cat
 type Cat struct {
 	*Animal
 }
