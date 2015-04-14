@@ -2,10 +2,12 @@ package main
 
 import "log"
 
+// Animal njwigniwg wrbighwrog wrgh wgw
 type Animal struct {
-	Says string
+	Says string `Animal:"Nothing..."`
 }
 
+// I'm a Cat
 type Cat struct {
 	*Animal
 }
@@ -22,5 +24,4 @@ func main() {
 	log.Print(animal)
 
 	log.Print(a_cat.Speak())
-	// log.Print(animal.Speak())
 }

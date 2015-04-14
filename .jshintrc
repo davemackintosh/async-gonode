@@ -1,0 +1,11 @@
+{
+  "asi"     : true,
+  "eqnull"  : true,
+  "eqeqeq"  : true,
+  "undef"   : true,
+  "globals" : {
+    "console"  : true,
+    "document" : true,
+    "window"   : true
+  }
+}
