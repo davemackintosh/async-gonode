@@ -2,10 +2,11 @@ package main
 
 func main() {
 	channel := make(chan string)
+
 	go func() {
 		channel <- "Hello"
 		channel <- "World"
-		close(channel)
+		defer close(channel)
 	}()
 
 	// println(<-channel)
