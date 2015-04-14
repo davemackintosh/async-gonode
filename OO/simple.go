@@ -16,10 +16,6 @@ func (animal *Animal) Speak() string {
 
 func main() {
 	a_cat := Cat{&Animal{"Meow"}}
-	animal := new(Animal)
-
-	log.Print(a_cat)
-	log.Print(animal)
 
 	log.Print(a_cat.Speak())
 }
