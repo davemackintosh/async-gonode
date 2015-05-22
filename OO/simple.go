@@ -2,20 +2,38 @@ package main
 
 import "log"
 
-type Animal struct {
-	Says string `Animal:"Nothing..."`
+type Component struct {
+	Name string
 }
 
-type Cat struct {
-	*Animal
+type Components []Component
+
+type Bicycle struct {
+	Brand string
+	Model string
+	Size  float32
+	Components
 }
 
-func (animal *Animal) Speak() string {
-	return animal.Says
+func (self Component) name() string {
+	return self.Name
+}
+
+func (cats Component) Speak() string {
+	return cats.Name
 }
 
 func main() {
-	a_cat := Cat{&Animal{"Meow"}}
+	myComponents := Components{
+		Component{"frame"},
+		Component{"forks"},
+		Component{"shock"},
+		Component{"wheels"},
+	}
 
-	log.Print(a_cat.Speak())
+	bike := Bicycle{"Scott", "YPZ2", 15.5, myComponents}
+
+	log.Print(bike.Components[0].Speak())
+
+	log.Print(bike)
 }

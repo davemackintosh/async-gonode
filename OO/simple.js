@@ -1,21 +1,30 @@
 (function() {
-
-  function Animal() {
-    this.says = 'Nothing...'
+  function Component(name) {
+    this.name = name
   }
 
-  Animal.prototype.Speak = function Speak() {
-    return this.says
+  function Bicycle(brand, model, size, components) {
+    this.Brand = brand
+    this.Model = model
+    this.Size  = size
+    this.Components = components
   }
 
-  function Cat() {
-    this.says = 'Meow'
+  var myComponents = [
+    new Component("frame"),
+    new Component("forks"),
+    new Component("shock"),
+    new Component("wheels")
+  ]
+
+  Component.prototype.getName = function() {
+    return this.name
   }
 
-  Cat.prototype = Animal.prototype
+  Bicycle.prototype.Components = Component.prototype
 
-  var a_cat  = new Cat()
 
-  console.log(a_cat.Speak())
+  var bike = new Bicycle("Scott", "YPZ2", 15.5, myComponents)
 
+  console.log(bike.Components[0].getName())
 })()

@@ -1,0 +1,726 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 122,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">7 Similarities between Go and Node</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 168,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 40,
+          "text": "<font face=\"Ubuntu, sans-serif\">1. Neither are actually object orientated<br>2. Streams/Channels<br>3. Native extensibility<br>4. Package managers<br>5. Debugging and profiling tools<br>6. Programming style similarities<br>7. Cross platform programming<br>8. Questions!<br></font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ToZ8BbY.png",
+          "type": "Image",
+          "x": 51,
+          "y": 637,
+          "scale": {
+            "x": 0.40594059405940597,
+            "y": 0.40594059405940597,
+            "width": 82,
+            "height": 101.48514851485149
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 167,
+          "y": 657,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Ubuntu\">@daveymackintosh<br>@newworldcode<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": true,
+      "active": true,
+      "x": 180,
+      "y": 180,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 32,
+          "y": 158,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Ubuntu\"><b>Code Tourism ~ Verb</b><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 128,
+          "y": 271,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 60,
+          "text": "<font face=\"Ubuntu\">The act of&nbsp;trying a&nbsp;new<br></font>technology for a few&nbsp;hours and&nbsp;<br>writing a shallow blog post on<br>the good and bad bits.<br>",
+          "selected": false,
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 1.56,
+      "rotateY": 1.58,
+      "rotateZ": -1.58,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "# \n\n\n",
+      "x": 460,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 100,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Ubuntu\"><b>Node</b><br>Easy to install using the binary download on their site<br>Package manager comes pre-packaged<br>It's JavaScript, people already mostly know it<br>It appears to be pretty fast<br>Works everywhere<br><br><b>Go<br></b>Easy to install using the binary download on their site<br>No package manager?! Pfft<br>New language?! Pfft<br>Holy crap it's fast!<br>Works everywhere<br></font>",
+          "selected": false,
+          "rotate": 0
+        },
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">A code tourists guide to both</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 740,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 185,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">A more realistic guide to both</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 18,
+          "y": 100,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\"><b>Node</b><br>Easy to install using the binary download on their site.<br>Package manager comes pre-packaged.<br>It's JavaScript, people already mostly know it.<br>It appears pretty fast but...<br>In reality it doesn't scale without lots of $$<br>Works everywhere<br><br><b>Go<br></b>Easy to install using the binary download on their site.<br>Use </font><font face=\"Droid Sans Mono, monospace\">go get https://package.name</font><font face=\"Ubuntu\"> and push modules.<br>New language, syntactically very similar to C and Java<br>Works everywhere, Including Android! (iOS support soon)<br>Holy crap it's fast, built to scale.<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 1020,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 346,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Ubuntu\"><b>The actual talk..</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 233,
+      "y": 416
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 136,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Neither are truly object orientated</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 32,
+          "text": "<font face=\"Ubuntu\"><b>Neither are object oriented but..<br></b>They both have their own way of pretending they are.<br><br><b><i>Node (ES5)</i></b> has Object literals, Prototype chain, </font><font face=\"Droid Sans Mono, monospace\">utils.inherits</font><br><b style=\"font-family: Ubuntu;\"><i>Go</i></b><font face=\"Ubuntu\"> has Interfaces, Structs and&nbsp;Embedding/Sub-Typing.&nbsp;</font><br><br><font face=\"Ubuntu\">With Node we can create complex, invisible dependency chains<br>through&nbsp;</font><font face=\"Ubuntu\">prototypical which can&nbsp;become&nbsp;</font>unwieldy to maintain.<br><br><font face=\"Ubuntu\">With Go we use anonymous members to create an&nbsp;</font><br><font face=\"Ubuntu\">inheritance \"like\" structure but with Go it's strictly&nbsp;</font><br><font face=\"Ubuntu\">implementation inheritance and they won't change that.</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 533,
+      "y": 607
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 283,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Streams vs Channels</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\">They're kind of different and kind of similar...<br><br><b>Node has:</b><br>Readable<br>Writable,<br>Duplex<br>Transformer<br><br><b>Go has</b>&nbsp;<br>Read + Write<br></font><font face=\"Ubuntu\">Read only<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 970,
+      "y": 401
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 283,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Streams vs Channels</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\"><b>Duplex streams<br></b>A (full-)duplex stream is a stream/channel of data that flows<br>in both directions at the same time.<br><br>A half-duplex is data that flows in both directions but <b>not <br></b>at the same time.&nbsp;<br><br>Node has the idea of Simplex and Duplex in varying degrees,<br>Readable and Writable streams are Simplex, Duplex landed in<br>0.12.* with Duplex and Transformer streams.<br><br>Go only has full duplex channels(streams) but these are the<br>same concept as Node's R+W streams.<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 2140,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 301,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Native extensibility</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 21,
+          "y": 141,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\"><b>Both</b> have native APIs but in slightly different places.<br>Go has CGO; which is everything it sounds like, C and Go in&nbsp;<br>one file, 100% direct access to raw C and C++ APIs.<br><br>Go lets you write comments containing C code inside your Go<br>files and you just import the \"C\" package. This gets baked&nbsp;<br>into your final Go generated binary. Cool, but a bit unwieldy.<br><br>Node has C++ and the V8 engine compiled by node-gyp,&nbsp;<br>it requires several steps but it outputs separate modules<br>to the rest of your code for reusability. Pretty cool and keeps<br>your code modularised for reusability.<br><br></font><font face=\"Ubuntu\"><br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 1139,
+      "y": 587
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 301,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Native extensibility</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\"><b>Swig supports Go<br></b>Swig lets us generate Go code that wraps entire C/C++<br>libraries. Requires some hoop jumping to make things<br>like </font><font face=\"Droid Sans Mono, monospace\">templates</font><font face=\"Ubuntu\"> and </font><font face=\"Droid Sans Mono, monospace\">non-primitives</font><font face=\"Ubuntu, sans-serif\"> but it largely<br>works out of the box and is still less work than Node's C++.</font><br><font face=\"Droid Sans Mono, monospace\">go build</font> <font face=\"Ubuntu, sans-serif\">recognises .swig files so just run go build as usual&nbsp;<br>and start winning with CGO.<br></font><br><b>Swig also supports Node/JavaScript/JSC</b><br>But it comes with lots of warnings and issues, you'll mostly want<br>to manually wrap any C/C++ code in your extensions.<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 644,
+      "y": 397
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 308,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Package Managers</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\"><b>Go doesn't come with a \"Package Manager\"<br></b>It does and it doesn't, it comes with </font><font face=\"Droid Sans Mono, monospace\">go</font><font face=\"Ubuntu, sans-serif\"> </font><font face=\"Droid Sans Mono, monospace\">get</font><font face=\"Ubuntu\">&nbsp;</font><font face=\"Ubuntu, sans-serif\">but that doesn't<br></font>\"manage\" dependencies, there's no canonical module repository.<br>It's more like C,&nbsp;Library A@1.0.0 uses&nbsp;Library B@1.0.0 and we<br>include library B in the source control&nbsp;and update as and when<br>a tried &amp; tested update is released.&nbsp;It should be the developers<br>problem to keep&nbsp;dependencies up to&nbsp;date.<br><br><font face=\"Droid Sans Mono, monospace\">go get</font><font face=\"Ubuntu, sans-serif\">&nbsp;doesn't install to the local folder without changing </font><br><font face=\"Droid Sans Mono, monospace\">your</font><font face=\"Ubuntu, sans-serif\"> </font><font face=\"Droid Sans Mono, monospace\">$GOPATH</font><font face=\"Ubuntu, sans-serif\"> env&nbsp;unlike npm which creates and installs to </font><br><font face=\"Droid Sans Mono, monospace\">node_modules.</font><br><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 216,
+      "y": 619
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\">Debugging and profiling code you want to scale is hard in&nbsp;<br></font>any language.<br><br>Bug aren't always broken/unexpected features, a bug can be&nbsp;<br>1ms blocking call in a busy network causing dropped connections<br>or a&nbsp;synchronous read from a database where async was meant.<br><br>Profiling and resolving issues like this in both languages is still<br>pretty manual (and sucky) using things like built in static profilers<br>and DTrace probes<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 184,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Debugging and profiling tools</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "x": 3260,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 184,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Debugging and profiling tools</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 140,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu\">Debugging and profiling code you want to scale is hard in&nbsp;<br></font>any language.<br><br>Bug aren't always broken/unexpected features, a bug can be&nbsp;<br>1ms blocking call in a busy network causing dropped connections<br>or a&nbsp;synchronous read from a database where async was meant.<br><br>Profiling and resolving issues like this in both languages is still<br>pretty manual (and sucky) using things like built in static profilers<br>and DTrace probes<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 3540,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 179,
+          "y": 26,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">Programming style similarities</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 349,
+          "y": 494,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Ubuntu, sans-serif\"><b>Don't lose your shit</b></font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/gUbwTTl.gif",
+          "type": "Image",
+          "x": 312,
+          "y": 176,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "x": 3260,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 410,
+          "y": 630,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: Ubuntu;\">@daveymackintosh</span></div><font face=\"Ubuntu\"><div style=\"text-align: center;\">@newworldcode</div></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ToZ8BbY.png",
+          "type": "Image",
+          "x": 471,
+          "y": 468,
+          "scale": {
+            "x": 0.40594059405940597,
+            "y": 0.40594059405940597,
+            "width": 82,
+            "height": 101.48514851485149
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 401,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Ubuntu\">Thanks!</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 4380,
+      "y": 740
+    }
+  ],
+  "background": "bg-solid-smoke",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 122,
+        "y": 28,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 48,
+        "text": "<font face=\"Hammersmith One\">7 Similarities between Go and Node</font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 46,
+        "y": 168,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 40,
+        "text": "<font face=\"Ubuntu, sans-serif\">1. Neither are actually object orientated<br>2. Streams/Channels<br>3. Native extensibility<br>4. Package managers<br>5. Debugging and profiling tools<br>6. Programming style similarities<br>7. Cross platform programming<br>8. Questions!<br></font><br>",
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/ToZ8BbY.png",
+        "type": "Image",
+        "x": 51,
+        "y": 637,
+        "scale": {
+          "x": 0.40594059405940597,
+          "y": 0.40594059405940597,
+          "width": 82,
+          "height": 101.48514851485149
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 167,
+        "y": 657,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 24,
+        "text": "<font face=\"Ubuntu\">@daveymackintosh<br>@newworldcode<br></font>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 0,
+    "selected": true,
+    "active": true,
+    "x": 180,
+    "y": 180,
+    "markdown": ""
+  },
+  "fileName": "presentation-unnamed",
+  "surface": "bg-surf-grad-black",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/\n\n.strut-surface h1 {\n  font-size: 72px;\n}",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 2280,
+  "overviewY": 460
+}

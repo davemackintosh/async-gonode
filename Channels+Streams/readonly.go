@@ -4,9 +4,9 @@ func readOnlyChannel() <-chan string {
 	channel := make(chan string)
 
 	go func() {
+		defer close(channel)
 		channel <- "Hello"
 		channel <- "World"
-		defer close(channel)
 	}()
 
 	return channel
@@ -17,7 +17,6 @@ func main() {
 
 	println(<-hello)
 	println(<-hello)
-	println(<-hello)
 
-	hello <- "Foobar"
+	// hello <- "Foobar"
 }

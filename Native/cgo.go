@@ -6,7 +6,7 @@ import "unsafe"
 
 func main() {
 	// Get a pointer to a []char.
-	cs := C.CString("Hello from Go and C\n")
+	cs := C.CString("I'm sorry, world.")
 
 	// Say hello.
 	C.sayhello(cs)
